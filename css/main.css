@@ -1,0 +1,92 @@
+@font-face {font-family: Futura; src: url(../fonts/Futura_ICG_Book_Oblique.ttf)}
+
+body {
+  background-image: url("../images/flower.jpg");
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  font-size: 1.75em;
+  padding-right: 30px;
+  font-family: Futura, sans-serif;
+  font-weight: bold;
+  float: right;
+}
+
+nav li a:hover {
+  color: red;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li a.selected {
+  color: red
+}
+
+section p {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 2em;
+  padding-top: 50px;
+  padding-left: 430px;
+}
+
+section p a:hover {
+  color: #fff;
+}
+section p a{
+  text-decoration: none;
+  color: black;
+}
+
+section div.scrollBox {
+   height: 300px;
+   width: 98.5%;
+   border: 1px solid #ccc;
+   overflow: auto;
+   padding: 10px
+ }
+
+ section div {
+   background: black;
+   color: white;
+   background-color: rgba(10,10,10,.75);
+   font-family: 'Muli', sans-serif;
+   /*font-family: 'Slabo 27px', serif;*/
+ }
+
+ img {
+   float: right;
+   height: auto;
+   width: auto;
+   max-height: 450px;
+   max-width: 450px;
+   opacity: .6;
+   border-radius: 100%;
+   margin-right: -50px;
+ }
+
+ #hello {
+   font-size: 1.25em;
+ 	transform: rotate(5deg);
+ 	transform-origin: left top 0;
+ }
+
+ #here {
+   padding-left: 40px
+ 	transform: rotate(5deg);
+ 	transform-origin: left top 0;
+ }
+
+ #l33t {
+ 	transform: rotate(5deg);
+ 	transform-origin: left top 0;
+ }
+
+ #love {
+ 	transform: rotate(5deg);
+ 	transform-origin: left top 0;
+ }
